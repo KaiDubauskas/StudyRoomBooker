@@ -1,4 +1,5 @@
 import app from "./server.js"
+import * as ReactDOM from 'react-dom'
 import mongodb from "mongodb"
 import dotenv from "dotenv"
 import StudyRoomsDAO from "./dao/studyroomsDAO.js"
