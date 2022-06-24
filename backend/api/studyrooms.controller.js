@@ -35,7 +35,7 @@ export default class StudyRoomsController {
             total_results: totalStudyRooms,
         }
 
-        //await StudyRoomsDAO.updateAllRooms()
+        await StudyRoomsDAO.updateAllRooms()
 
         res.json(response)
 

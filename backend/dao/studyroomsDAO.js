@@ -81,8 +81,8 @@ export default class StudyRoomsDAO {
             let beginning = (start - cursor.open_time) * 2
             let end = (cursor.end_time - cursor.open_time) * 2
             let today = new Date()
-            //if (start <= today.getHours())
-            //return false
+            if (start <= today.getHours())
+                return false
 
 
             for (let i = beginning; i < (beginning + length * 2); i++) {

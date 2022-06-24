@@ -26,6 +26,7 @@ export default class ReservationsController {
                     length,
                 )
 
+
                 const ReservationsUpdate = await StudyRoomsDAO.updateStudyRoom(
                     studyroomsId,
                     start,
