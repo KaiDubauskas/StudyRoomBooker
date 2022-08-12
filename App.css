@@ -1,0 +1,146 @@
+* {
+    background-color: #1C1C1C;
+    padding: 0px;
+    margin: 0px;
+    font-family: LibreCalson;
+    /*#f8f4ec;*/
+}
+
+.jumbotron {
+    height: 200px;
+}
+
+
+
+.backCol {
+    background-color: #1C1C1C;
+    color: #e8d4c4;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e8d4c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.5pt;
+}
+
+.graph {
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.peabody {
+    background-image: url(./Images/Peabody1.png);
+
+}
+
+.central {
+    background-image: url(./Images/Central1.jpeg);
+}
+
+.feather {
+    background-image: url(./Images/Feather.jpeg);
+}
+
+.stevenson {
+    background-image: url(./Images/Stevenson.jpeg);
+}
+
+.furman {
+    background-image: url(./Images/FurmanHall.jpeg);
+}
+
+.buttrick {
+    background-image: url(./Images/Buttrick.jpeg);
+}
+
+.card {
+    height: 24rem;
+    border-color: #1C1C1C !important;
+
+}
+
+.slideUpMenu {
+    opacity: 0.7;
+    max-height: 85px;
+    height: 9rem;
+    transition: 0.2s;
+}
+
+.hiddenList {
+    display: none;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.cardImage {
+    height: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+.card-title,
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-title {
+    font-size: 25.5pt;
+}
+
+
+
+.cardImage:hover .slideUpMenu {
+    max-height: 8.5rem;
+    opacity: 0.9;
+    transition: max-height 0.12s ease;
+}
+
+.cardImage:hover .hiddenList {
+    display: flex;
+    opacity: 100%;
+    transition: 0.15s opacity 0.05s;
+}
+
+@font-face {
+    font-family: LibreCalson;
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+}
+
+.roomInfo {
+    min-width: 102px;
+}
+
+
+
+
+.reserveButtonMinWidth {
+    min-width: 77px;
+}
+
+
+
+.false {
+    background-color: crimson;
+    border-style: solid;
+    border-color: #e8d4c4;
+    color: #1C1C1C;
+    max-width: 200px;
+}
+
+.true {
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: #e8d4c4;
+    color: #1C1C1C;
+    max-width: 200px;
+}
