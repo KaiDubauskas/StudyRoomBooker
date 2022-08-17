@@ -9,6 +9,7 @@ export default class StudyRoomsController {
 
 
         let filters = {}
+
         if (req.query.building) {
             filters.building = req.query.building
         }
@@ -20,7 +21,7 @@ export default class StudyRoomsController {
             filters.isOpen = req.query.isOpen
 
 
-
+        console.log(filters)
         const { studyroomsList, totalStudyRooms } = await StudyRoomsDAO.getStudyRooms({
             filters,
             page,
