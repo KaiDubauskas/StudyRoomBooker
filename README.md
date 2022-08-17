@@ -5,7 +5,7 @@ A web-based application to simulate reserving study rooms in different buildings
 [![Watch the video](https://img.youtube.com/vi/hV6yuQxq5Ng/maxresdefault.jpg)](https://youtu.be/hV6yuQxq5Ng)
 <p align="center">^ Click to view website walthrough ^</p>
 
-### The problem
+### The Problem
 
 During most of the school year, the demand of study rooms at Vanderbilt matches the supply. The one exception is during finals week, where open study rooms are far and few between. There was no way to see which study rooms in which buildings were open, and which were closed, forcing students to walk halfway around campus to find an open room to study in. This program was created to solve this problem, by allowing students to reserve and occupy study rooms. Others can then see which study rooms are occupied or open, eliminting the need to walk between multiple buildings to find a room. 
 
