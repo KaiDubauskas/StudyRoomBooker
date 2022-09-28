@@ -2,6 +2,8 @@
 ## Description
 A web-based application to simulate reserving study rooms in different buildings at Vanderbilt University.
 
+## Demonstration
+
 [![Watch the video](https://img.youtube.com/vi/hV6yuQxq5Ng/maxresdefault.jpg)](https://youtu.be/hV6yuQxq5Ng)
 <p align="center">^ Click to view website walthrough ^</p>
 
